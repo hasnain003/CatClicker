@@ -1,0 +1,35 @@
+html,body{
+	height:100%;
+}
+
+body {
+	background: linear-gradient(#fffed0,#FFF8DC);
+	background-repeat: no-repeat;
+	height:100%;
+	background-size: cover;
+}
+
+.container {
+	margin : 5em 3em 5em 3em;
+
+}
+
+.cat {
+	margin:auto;
+	text-align: center;
+}
+img:hover {
+	border:1px double #ddd;
+	box-shadow: 0 5px 12px #ccc;
+	/*padding:10px;
+ 	margin:auto;*/
+/*	margin:5px 10px 10px 5px;*/
+/*	background:#ffffd6; */
+ 	background:#fffff0;
+}
+.msg{
+	margin-top:1em;
+	text-align:center;
+	font-style: italic;
+	font-size:1.5em;
+}
