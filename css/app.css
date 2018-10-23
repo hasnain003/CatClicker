@@ -9,13 +9,26 @@ body {
 	background-size: cover;
 }
 
-.container {
-	margin : 5em 3em 5em 3em;
-
+.row {
+	display: flex;
+}
+.column{
+	flex: 10%;
+	padding:1.5em;
 }
 
-.cat {
-	margin:auto;
+.cat1 {
+	width:500px;
+	height:420px;
+/*	float:left;*/
+	margin:0px 3em 1em 2.5em;
+	text-align: center;
+}
+.cat2 {
+	width:500px;
+	height:420px;
+/*	float:right;*/
+	margin: 0px 3em 1em 2.5em;
 	text-align: center;
 }
 img:hover {
@@ -27,7 +40,7 @@ img:hover {
 /*	background:#ffffd6; */
  	background:#fffff0;
 }
-.msg{
+p {
 	margin-top:1em;
 	text-align:center;
 	font-style: italic;

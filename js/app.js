@@ -1,25 +1,48 @@
-let count=0;
+let count1=0,count2=0;
 
-const img=document.querySelector('img');
-const text=document.querySelector('.msg');
+const cat1=document.querySelector('.cat1');
+const text1=document.querySelector('.msg1');
+const cat2=document.querySelector('.cat2');
+const text2=document.querySelector('.msg2');
 
-img.addEventListener("click", function(){
-	count++;
-	if(count%10 === 1)
+cat1.addEventListener("click", function(){
+	count1++;
+	if(count1%10 === 1)
 	{
-		text.innerHTML = "Cat Image has been clicked for the "+count+"st time." 
+		text1.innerHTML = "Cat Image has been clicked for the "+count1+"st time." 
 	}
-	else if(count%10 === 2)
+	else if(count1%10 === 2)
 	{
-		text.innerHTML = "Cat Image has been clicked for the "+count+"nd time." 
+		text1.innerHTML = "Cat Image has been clicked for the "+count1+"nd time." 
 	}
-	else if(count%10 === 3)
+	else if(count1%10 === 3)
 	{
-		text.innerHTML = "Cat Image has been clicked for the "+count+"rd time." 
+		text1.innerHTML = "Cat Image has been clicked for the "+count1+"rd time." 
 	}
 	else
 	{
-		text.innerHTML = "Cat Image has been clicked for the "+count+"th time."
+		text1.innerHTML = "Cat Image has been clicked for the "+count1+"th time."
 	}
 
 });
+cat2.addEventListener("click", function(){
+	count2++;
+	if(count2%10 === 1)
+	{
+		text2.innerHTML = "Cat Image has been clicked for the "+count2+"st time." 
+	}
+	else if(count2%10 === 2)
+	{
+		text2.innerHTML = "Cat Image has been clicked for the "+count2+"nd time." 
+	}
+	else if(count2%10 === 3)
+	{
+		text2.innerHTML = "Cat Image has been clicked for the "+count2+"rd time." 
+	}
+	else
+	{
+		text2.innerHTML = "Cat Image has been clicked for the "+count2+"th time."
+	}
+
+});
+
